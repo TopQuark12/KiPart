@@ -998,7 +998,7 @@ def call_kipart(args, part_reader, part_data_file, file_name, file_type, parts_l
     )
 
 
-def main():
+def main(args=None):
 
     # Get Python routines for reading part description/CSV files.
     readers = scan_for_readers()
